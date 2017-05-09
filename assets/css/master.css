@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body {
+  background-color: #7F7100;
+  margin:0;
+  padding:0;
+  color:white;
+}
+
+.main-container {
+  width: 100%;
+}
+
+header {
+  background-color: #FF390E;
+  height: 80px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Abril Fatface';
+}
+
+nav {
+  width: 400px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Abril Fatface';
+}
+
+li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+  padding:10px;
+}
+
+a:hover {
+  background-color: black;
+}
+
+.logo {
+  height: 64px;
+  width: 64px;
+}
+#panda-gallery {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 300px;
+  width: 100%;
+}
+
+.panda {
+  width: 180px;
+  height: 180px;
+  background-repeat: no-repeat;
+}
+
+.panda-one {
+  background-image: url("../img/pandauno.jpg");
+}
+
+.panda-two {
+  background-image: url("../img/pandados.jpg");
+}
+
+.panda-three {
+  background-image: url("../img/pandatres.jpg");
+}
+
+.panda-four {
+  background-image: url("../img/pandacuatro.jpg");
+}
+
+.cerrar {
+  height: 15px;
+  width: 15px;
+}
+
+.menu-text {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 60px;
+}
+
+.div-button {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
+  width: 200px;
+  height: 50px;
+  background-color: #FF390E;
+  border-radius: 10px;
+  border: none;
+  color:white;
+  font-family: 'Abril Fatface';
+}
+
+.div-button:hover {
+  background-color: black;
+}
+
+.description-texts {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100%;
+  height: 300px;
+}
+
+.part-text {
+  display:flex;
+  align-items: center;
+
+  width: 450px;
+  height: 300px;
+}
+
+footer {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+}
